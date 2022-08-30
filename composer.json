@@ -1,5 +1,5 @@
 {
-    "name": "duncan3dc/blade",
+    "name": "manuzcom/blade",
     "type": "library",
     "description": "Use Laravel Blade templates without the full Laravel framework",
     "keywords": ["laravel", "templating", "template", "views"],
@@ -10,13 +10,19 @@
         "email": "git@duncanc.co.uk",
         "homepage": "https://github.com/duncan3dc",
         "role": "Developer"
+    },
+    {
+        "name": "manu",
+        "email": "manu@manuz.com",
+        "homepage": "https://github.com/manuzcom",
+        "role": "Developer"
     }],
     "require": {
-        "illuminate/contracts": "^6.0 || ^7.0",
-        "illuminate/events": "^6.0 || ^7.0",
-        "illuminate/filesystem": "^6.0 || ^7.0",
-        "illuminate/view": "^6.0 || ^7.0",
-        "php": "^7.3 || ^8.0"
+        "illuminate/contracts": "^9.0",
+        "illuminate/events": "^9.0",
+        "illuminate/filesystem": "^9.0",
+        "illuminate/view": "^9.0",
+        "php": "^8.0"
     },
     "require-dev": {
         "duncan3dc/object-intruder": "^0.3.0 || ^1.0",
